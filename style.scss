@@ -1,0 +1,14 @@
+$primaryColor: hsl(235, 16%, 14%);
+$secondaryColor: hsl(345, 95%, 68%);
+$textColor: hsl(237, 18%, 59%);
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+@import "./container";
+@import "./time";
+@import "./contact";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap");
+.container {
+  position: relative;
+  background-image: url("./launch-countdown-timer-main/images/bg-stars.svg"), url("./launch-countdown-timer-main/images/pattern-hills.svg");
+  background-position: bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #1e1f29;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 700;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container h1 {
+  letter-spacing: 5px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time .box {
+  font-size: 60px;
+  color: #fb6087;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e1f29;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 115px;
+  width: 115px;
+  margin: 0 15px;
+}
+
+.time-text {
+  position: absolute;
+  color: #8486a9;
+  letter-spacing: 5px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-text .text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+  height: 115px;
+  width: 115px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact li {
+  cursor: pointer;
+  list-style: none;
+  margin: 0 20px;
+}
+
+.contact li:hover {
+  color: #fb6087;
+  transition: 0.4s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

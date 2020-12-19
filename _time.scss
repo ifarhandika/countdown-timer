@@ -1,0 +1,36 @@
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .box{
+        font-size: 60px;
+        color: $secondaryColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $primaryColor;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 115px;
+        width: 115px;
+        margin: 0 15px;
+    }
+}
+.time-text{
+    position: absolute;
+    color: hsl(237, 18%, 59%);
+    letter-spacing: 5px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 15px;
+        height: 115px;
+        width: 115px;
+    }
+}
+
